@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Madimi+One&family=Maven+Pro:wght@400..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "Ff_ZzJqkrwn6lqaEx",
+        });
+    })();
+    </script>
+    <title>Newsletter</title>
+</head>
+<body>
+    <main>
+        <section class = "wrapper">
+            <section class="main-content">
+                <span class = "title">Stay updated!</span>
+                <p> Join 60,000+ product managers receiving monthly updates on:</p>
+                <section class = "checked-content">
+                    <div class = "checked">
+                        <img src="images/icon-list.svg" alt="">
+                        <span>Product discovery and building what matters</span>
+                    </div>
+                    <div class = "checked">
+                        <img src="images/icon-list.svg" alt="">
+                        <span>Measuring to ensure updates are a success</span>
+                    </div>
+                    <div class = "checked">
+                        <img src="images/icon-list.svg" alt="">
+                        <span>And much more!</span>
+                    </div>
+                </section>
+                <section class = "input-content">
+                    <div class = "req">
+                        <span>Email address</span>
+                        <span class = "email-error">Valid email required</span>
+                    </div>
+                    <input type="text" id="txtInput" placeholder="email@company.com" autocomplete="false">
+                    <button class = "btn">Subscribe to monthly newsletter</button>
+                </section>
+            </section>
+            <section class="image-content">  
+                <img src="images/illustration-sign-up-mobile.svg" alt="">
+            </section>     
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
